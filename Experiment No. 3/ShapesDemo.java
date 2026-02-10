@@ -33,6 +33,10 @@ class Triangle extends Shape {
 
 public class ShapesDemo {
     public static void main(String[] args) {
+        Shape r = new Rectangle(55, 45);
+        Shape t = new Triangle(44, 24);
 
+        System.out.println("Rectangle Area: " + r.area() + " sq. units");
+        System.out.println("Triangle Area: " + t.area() + " sq. units");
     }
 }
